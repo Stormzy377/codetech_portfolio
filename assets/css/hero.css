@@ -1,0 +1,102 @@
+/* === Section === */
+:root {
+    --accent: ##6c63ff;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+   /* background: linear-gradient(
+    135deg,
+    #e6e4ff,
+    #f3f2ff); */
+}
+
+.hero-content {
+    min-width: 900px;
+    padding: 11.2rem;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #000;
+}
+
+.hero h1 span {
+    color: #6c63ff;
+}
+
+.hero h1  .highlight {
+    display: inline-block;
+}
+
+.hero p {
+    margin: 1.5rem auto 2.5rem;
+    min-width: 650px;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn.primary {
+    background: #6c63ff;
+    color: #fff;
+    padding: 0.9rem 1.6rem;
+    border-radius: 10px;
+}
+
+.btn.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(108, 99, 255, 0.3);
+}
+
+.btn.link {
+    color: #6c63ff;
+}
+
+.btn.link:hover {
+    gap: 0.8rem;
+}
+
+.typewriter {
+    color: var(--accent);
+    position: relative;
+}
+
+.typewriter::after {
+    content: "|";
+    margin-left: 4px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+
+    51%, 100% {
+        opacity: 0;
+    }
+}
