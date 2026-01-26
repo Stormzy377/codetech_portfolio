@@ -1,0 +1,124 @@
+.team-section {
+  padding: 60px 20px;
+  /* background-color: #f8faff; */
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.header-container {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.header-container h2 {
+  font-size: 2.3rem;
+  color: #1a1a1a;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.header-container h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #7e4bff;
+  margin: 8px auto 0 auto;
+  border-radius: 2px;
+}
+
+.header-container p {
+  font-size: 1.3rem;
+  color: #393b3c;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+}
+
+.team-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  width: 350px; 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  animation: waveFloat 5s ease-in-out infinite;
+}
+
+/* === Efeito de Onda (Atrasos diferenciados) === */
+.team-card:nth-child(1) { animation-delay: 0s; }
+.team-card:nth-child(2) { animation-delay: 0.5s; }
+.team-card:nth-child(3) { animation-delay: 1s; }
+.team-card:nth-child(4) { animation-delay: 1.5s; }
+.team-card:nth-child(5) { animation-delay: 2s; }
+
+@keyframes waveFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.role {
+  display: block;
+  font-size: 0.85rem;
+  color: #5c67f2;
+  font-weight: 700;
+}
+
+.bio {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.linkedin-btn {
+  display: block;
+  text-align: center;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.linkedin-btn:hover {
+  transform: scale(1.02);
+  background-color: #005a8a;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-bottom: 15px;
+}
