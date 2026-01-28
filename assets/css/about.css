@@ -1,0 +1,33 @@
+.about-section {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.header-container2 h2 {
+  font-size: 2.3rem;
+  color: #1a1a1a;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.header-container2 h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #7e4bff;
+  margin: 8px auto 0 auto;
+  border-radius: 2px;
+}
+
+
+.header-container2 p {
+  padding: 10px 80px;
+  font-size: 1.3rem;
+  color: #393b3c;
+  line-height: 1.6;
+  font-weight: 400;
+}

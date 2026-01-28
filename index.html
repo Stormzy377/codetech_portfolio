@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="assets/css/mediaqueries.css">
     <link rel="stylesheet" href="assets/css/team.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/contactar.css">
+    <link rel="stylesheet" href="assets/css/about.css">
 </head>
 <body>
   
@@ -31,8 +34,9 @@
           <nav class="nav-links">
             <a href="#inicio">Início</a>
             <a href="#projectos">Projectos</a>
+            <a href="#about">Sobre nós</a>
             <a href="#servicos">Serviços</a>
-            <a href="#equipe">Equipe</a>
+            <a href="#equipa">Equipe</a>
           </nav>
 
           <!-- === Ações === -->
@@ -48,7 +52,7 @@
 
 
 <!-- === Hero Section === -->
-<section class="hero">
+<section id="inicio" class="hero">
   <div class="hero-content">
     <h1>
       Inovação <span>tecnológica</span> ao serviço do seu <span class="highlight">crescimento</span>, ajudando a sua <span class="typewriter" data-text="empresa"></span>
@@ -120,15 +124,67 @@
         </div>
       </div>
 
-<!-- === Team Section === -->
-<section class="team-section">
+<!-- === Projectos === -->
+ <section id="projectos" class="about-section">
   <div class="header-container">
-    <h2>Nossa Equipe</h2>
-    <p>Conheça os especialistas dedicados a transformar sua visão em realidade tecnológica na Code Tech.</p>
+    <h2 class="hidden">Projectos</h2>
+    <p class="hidden"></p>
+  </div>
+ </section>
+
+
+<!-- === Sobre nós === -->
+ <section id="about" class="about-section">
+  <div class="header-container2">
+    <h2 class="hidden">Quem Somos?</h2>
+    <p class="hidden">Somos uma equipe focada em criar soluções digitais inteligentes, unindo design,<span class="highlight">tecnologia</span> e estratégia para transformar ideias em produtos funcionais e escaláveis.
+    Trabalhamos com desenvolvimento de software, interfaces modernas e experiências digitais que geram valor real para marcas e negócios.</p>
+  </div>
+ </section>
+
+<!-- === Serviços === -->
+ <section id="servicos" class="services-section">
+  <div class="header-container">
+    <h2 class="hidden">Nossos Serviços?</h2>
+    <p class="hidden">Desenvolvemos soluções tecnológicas sob medida criando sistemas modernos e eficientes para atender às necessidades e impulsionar o seu negócio.</p>
+  </div>
+
+  <div class="services-grid">
+    <div class="services-card hidden">
+      <h3>Desenvolvimento Mobile</h3>
+      <p>Desenvolvemos aplicações mobile modernas, intuitivas e totalmente personalizadas, pensadas para aproximar a sua marca do público. Utilizamos tecnologias atuais para garantir desempenho, segurança e compatibilidade com Android e iOS.</p>
+      <a href="#" class="order-btn">Fazer Pedido! <i class=" fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="services-card hidden">
+      <h3>Web Design UI UX</h3>
+      <p>Criamos designs modernos, responsivos e totalmente personalizados, pensados para transmitir profissionalismo e identidade visual. Aplicamos boas práticas de design para garantir clareza, estética e facilidade de navegação.</p>
+      <a href="#" class="order-btn">Fazer Pedido! <i class=" fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="services-card hidden">
+      <h3>Websites Responsivos</h3>
+      <p>Desenvolvemos websites modernos, responsivos e totalmente personalizados, pensados para fortalecer a presença digital da sua marca. Utilizamos tecnologias atuais para garantir rapidez, segurança e compatibilidade com todos os dispositivos.</p>
+      <a href="#" class="order-btn">Fazer Pedido! <i class=" fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="services-card hidden">
+      <h3>Desenvolvimento de Sistemas</h3>
+      <p>Desenvolvemos sistemas modernos, seguros e totalmente personalizados, pensados para automatizar processos e otimizar a gestão do seu negócio. Cada sistema é criado com foco na eficiência, usabilidade e resultados reais.</p>
+      <a href="#" class="order-btn">Fazer Pedido! <i class=" fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+ </section>
+
+<!-- === Team Section === -->
+<section id="equipa" class="team-section">
+  <div class="header-container">
+    <h2 class="hidden">Nossa Equipe</h2>
+    <p class="hidden">Conheça os especialistas dedicados a transformar sua visão em realidade tecnológica na Code Tech.</p>
   </div>
 
   <div class="team-grid">
-    <div class="team-card">
+    <div class="team-card hidden">
       <div class="card-header">
         <img src="assets/img/membro1.jpg" alt="Germano Mualevangue" class="avatar">
         <div class="info">
@@ -141,7 +197,7 @@
       <a href="https://www.linkedin.com/in/germanos-sorte/" class="linkedin-btn" target="_blank">LinkedIn</a>
     </div>
 
-    <div class="team-card">
+    <div class="team-card hidden">
       <div class="card-header">
         <img src="assets/img/membro2.jpeg" alt="Mário Soares" class="avatar">
         <div class="info">
@@ -153,8 +209,8 @@
       <p class="bio">Sou apaixonado por arquitetura de sistemas e performance. Na Code Tech, cuido da inteligência 'por trás das cortinas', garantindo que nossos dados fluam com segurança e escalabilidade total.</p>
       <a href="#" class="linkedin-btn" target="_blank">LinkedIn</a>
     </div>
-
-    <div class="team-card">
+ 
+    <div class="team-card hidden">
       <div class="card-header">
         <img src="FOTO_3.jpg" alt="Aires Almeida" class="avatar">
         <div class="info">
@@ -167,7 +223,7 @@
       <a href="#" class="linkedin-btn" target="_blank">LinkedIn</a>
     </div>
 
-    <div class="team-card">
+    <div class="team-card hidden">
       <div class="card-header">
         <img src="assets/img/membro4.jpeg" alt="Edmilson Alexandre" class="avatar">
         <div class="info">
@@ -180,7 +236,7 @@
       <a href="#" class="linkedin-btn" target="_blank">LinkedIn</a>
     </div>
 
-    <div class="team-card">
+    <div class="team-card hidden">
       <div class="card-header">
         <img src="assets/img/membro5.jpeg" alt="Herivelton Vóo" class="avatar">
         <div class="info">
@@ -194,7 +250,50 @@
     </div>
   </div>
 </section>
-     
+
+
+<!-- === Contactar === -->
+<section id="contacto" class="contact-section">
+  <div class="header-container">
+    <h2 class="hidden">Contacte <span class="highlight">-nos</span></h2>
+    <p class="hidden">Entre em contacto connosco para soluções personalizadas, suporte e orientação. Estamos prontos para ouvir suas necessidades e ajudar a transformar ideias em projetos digitais eficientes e de alto impacto.</p>
+  </div>
+
+  <div class="contact-container">
+    <div class="contact-info hiddenRight">
+      <h3>Não Seja Tímido!</h3>
+      <p>Tem uma ideia ou projeto em mente? Fale connosco! Nossa equipe está pronta para transformar seus desafios em soluções digitais. Criamos sistemas, apps e websites sob medida para o seu negócio. Cada mensagem recebida recebe atenção completa e orientação profissional. Não espere mais para tirar seu projeto do papel. Envie sua mensagem agora e comece a construir resultados reais.</p>
+    </div>
+
+    <div class="contact-form hiddenRight">
+      <form action="#">
+        <div class="form-row">
+          <div class="input-group">
+            <label>Seu Nome</label>
+            <input type="text" placeholder="Digite seu nome">
+          </div>
+          <div class="input-group">
+            <label>Seu E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail">
+          </div>
+          <div class="input-group">
+            <label>Assunto</label>
+            <input type="text" placeholder="Qual o assunto?">
+          </div>
+        </div>
+        
+        <div class="input-group full-width">
+          <label>Escreva aqui a sua mensagem!</label>
+          <textarea rows="5" placeholder="Como podemos ajudar?"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          Enviar <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
 
 <footer class="main-footer">
   <div class="footer-container">
@@ -214,6 +313,6 @@
 </footer>
 
      <script src="assets/js/main.js"></script>
-     <script src="assets/js/team.js"></script>
+     <script src="assets/js/scroll.js"></script>
 </body>
 </html>

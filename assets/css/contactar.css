@@ -1,0 +1,92 @@
+.contact-section {
+  padding: 20px 20px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 70px;
+}
+
+/* Título com destaque no "-nos" */
+.contact-section .highlight {
+  color: #6c5ce7;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* Estilo do Texto à Esquerda */
+.contact-info h3 {
+  color: #6c5ce7;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  color: #272727;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Estilo do Formulário */
+.contact-form .form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.input-group input, 
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+  border-color: #6c5ce7;
+}
+
+.full-width {
+  margin-top: 20px;
+}
+
+/* Botão Enviar */
+.submit-btn {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #5b4cc4;
+  transform: scale(1.05);
+}

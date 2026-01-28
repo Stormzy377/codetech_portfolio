@@ -5,3 +5,33 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+.hidden {
+  /* border: 1px solid red; */
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+}
+
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.hiddenRight {
+  /* border: 1px solid red; */
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.6s ease;
+}
+
+.showRight {
+  opacity: 1;
+  transform: translateX(0); /* volta para a posição normal */
+}

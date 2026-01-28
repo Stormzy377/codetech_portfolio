@@ -1,6 +1,5 @@
 .team-section {
   padding: 60px 20px;
-  /* background-color: #f8faff; */
   text-align: center;
   font-family: 'Inter', sans-serif;
 }
@@ -88,7 +87,7 @@
 .role {
   display: block;
   font-size: 0.85rem;
-  color: #5c67f2;
+  color: #6c63ff;
   font-weight: 700;
 }
 
@@ -114,7 +113,7 @@
 
 .linkedin-btn:hover {
   transform: scale(1.02);
-  background-color: #005a8a;
+  background-color: #5047fc;
 }
 
 hr {
